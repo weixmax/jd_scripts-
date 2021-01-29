@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: zdrka/jd_scripts_mirror
+          repository: hs20073/jd_scripts_mirror_myr
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
